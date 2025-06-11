@@ -1,7 +1,7 @@
 import React from 'react';
 import Woman from "../assets/images/woman.png";
 
-//TODO заполнить какие-то пустые баннеры
+//TODO: заполнить какие-то пустые баннеры
 const something = [
 
 ]
@@ -15,8 +15,6 @@ const Deal = ({className} ) => {
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat'
             }}
-
-
         >
         </div>
     );
