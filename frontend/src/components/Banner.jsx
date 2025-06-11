@@ -5,7 +5,7 @@ import Woman from "../assets/images/woman.png";
 const something = [
 
 ]
-const Deal = ({className} ) => {
+const Banner = ({className} ) => {
     return (
         <div
             className={`container mx-auto h-[380px] ${className}`}
@@ -20,4 +20,4 @@ const Deal = ({className} ) => {
     );
 };
 
-export default Deal;
+export default Banner;

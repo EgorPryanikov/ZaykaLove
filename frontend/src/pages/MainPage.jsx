@@ -1,11 +1,11 @@
 import Header from '../components/Header';
 import Category from "../components/Category";
-import Deal from "../components/Deal";
+import Banner from "../components/Banner";
 
 const Page = () => (
     <>
         <Header />
-        <Deal className="mt-5 mb-14"></Deal>
+        <Banner className="mt-5 mb-14"></Banner>
         <Category className="mt-16 mb-[100px]" />
     </>
 );
