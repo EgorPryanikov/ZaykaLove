@@ -3,7 +3,7 @@ import Product from "../assets/images/product.png"
 import {getStars} from "../utils/ratingToStars";
 import {labels} from "../constants/Labels"
 
-const ProductCard = ( { labelIds } ) => {
+const ProductCard = ( { labelIds = [] } ) => {
 
     const filteredLabels = labels.filter(label => labelIds.includes(label.id));
     const stars = getStars(3, 22)
